@@ -31,9 +31,9 @@
            <div class='col-md-12 border'>  
                 <nav id="nav">
                     <ul class='button-wrap '>
-                        <button>Schedule</button>
-                        <button>CSS</button>
-                      <button>HTML</button>
+                        <button >Schedule</button>
+                        <button data-toggle="modal" data-target="#css3_modal">CSS</button>
+                      <button data-toggle="modal" data-target="#html5_modal">HTML</button>
                     <button>Resonsive design</button>
                     </ul>  
                     </nav> 
@@ -83,11 +83,11 @@
                   <aside id='aside-right'>
                    <h3>Latest Work</h3>
                       <ul id="latest-work">
-                        <li>Project1</li>
-                          <li>Project2</li>
-                           <li>Project3</li>
-                           <li>Project4</li>
-                           <li>Project5</li>
+                        <li>Project 1</li>
+                          <li>Project 2</li>
+                           <li>Project 3</li>
+                           <li>Project 4</li>
+                           <li>Project 5</li>
                       </ul>
                    
                    </aside>  
@@ -124,7 +124,52 @@
                 
             
             <!--end container--> 
+          <!-- Modal-html5 -->
+<div class="modal fade" id="html5_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+          <div class='img-modal'>
+        <img src="images/HTML5.png"
+             </div> 
+      </div>
+          <br>
+          <p><strong>HTML5</strong>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current version of the HTML standard.</p>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal-css3 -->
+<div class="modal fade" id="css3_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+          <div class='img-modal'>
+            <img src="images/CSS3.jpg">
+              </div>
+          <br>
+          <p><strong>CSS3</strong>CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts.</p>
           
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                
              <script src="js/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
             <script src="js/main.js"></script>

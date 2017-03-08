@@ -148,7 +148,7 @@ text-align:center;
 }
 
 footer { 
-    background-color:whites;
+    background-color:white;
     text-align: center;
      font-family:'Lato', sans-serif;
     min-height: 100px;
@@ -167,4 +167,10 @@ footer > h1 {
 /*bootstrap related*/
 .container-fluid {
     padding: 0;
+}
+.img-modal {
+    text-align: center;
+}
+#favorite-sites > .row > .col-md-4 > img {
+    margin:0 auto;
 }
